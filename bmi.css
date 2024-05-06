@@ -1,0 +1,56 @@
+p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Readable font */
+        line-height: 1.6; /* Adjust line height for readability */
+        margin: 0;
+        padding: 20px; /* Add some padding to body content */
+        font-size: large;
+    }
+.main-heading {
+    text-align: center;
+    font-size: 46px; 
+    color:black; 
+}
+@media (max-width: 768px) {
+     .main-heading {
+        font-size: 24px;
+    }
+    .subheading {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    
+        body {
+            font-size: 16px;
+            padding: 10px;
+
+        }
+    img{
+        width: 20%;
+        height: 20%;
+        display: block;
+        margin: auto;
+    }
+    .img2{
+        width: 600;
+        
+    }
+    
+    }
+
+.subheading {
+    font-size: 35px; 
+    color: #FF5733; 
+    font-family: 'Times New Roman', Times, serif; 
+    margin-left: 20px; 
+}
+.img{
+    
+        width: 50%; /* Make the image width 100% of the viewport width */
+        height: 40%; /* Ensure the image aspect ratio is maintained */
+        display: block; /* Remove any default inline display */
+        margin: 0 auto; /* Center the image horizontally */
+        /* padding-left: 55px; */
+    }
+body{
+    background-color:white;
+}
