@@ -104,7 +104,7 @@
         <li><a href="#">Home</a></li>
         <li><a href="https://heathadvice.my.canva.site/bmi">Routine</a></li>
         <li><a href="https://bmidoctors.com/">Consult Doctor</a></li>
-        <li><a href="https://unibmi.my.canva.site/chitkara">About Us</a></li>
+        <li><a href="#">About Us</a></li>
         <li><a href="logout.php">Sign Out</a></li>
       </ul>
     </nav>
