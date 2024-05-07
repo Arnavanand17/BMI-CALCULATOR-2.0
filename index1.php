@@ -102,10 +102,10 @@
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="https://heathadvice.my.canva.site/bmi">Routine</a></li>
-        <li><a href="https://bmidoctors.com/">Consult Doctor</a></li>
-        <li><a href="https://unibmi.my.canva.site/chitkara">About Us</a></li>
-        <li><a href="logout.php">Sign Out</a></li>
+        <li><a href="https://heathadvice.my.canva.site/bmi"> Routine </a></li>
+        <li><a href="https://bmidoctors.com/">Consult  Doctor</a></li>
+        <li><a href="https://unibmi.my.canva.site/chitkara">About  Us</a></li>
+        <li><a href="logout.php">Sign  Out</a></li>
       </ul>
     </nav>
   </div>
@@ -119,7 +119,7 @@
     <div class="content"> BMI Calculator </div><br><br>
     <div class="masala"> Body mass index (BMI) is a measure of your weight
       relative to your height <br> and functions as a rough estimate of body fat.
-      When you enter your height<br> To calculate your BMI formula is :weight (kg) / height (m)². </div>
+      When you enter your height<br> To calculate your BMI formula is : weight (kg) / height (m)². </div>
 
   </div>
   <br><br><br><br><br>
