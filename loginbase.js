@@ -26,5 +26,5 @@ document.getElementById("yo").addEventListener('click', function(e) {
       email: document.getElementById("email").value,
       password: document.getElementById("password").value
     });
-  alert("Login Successfully");
+  alert("You have been Login Successfully");
 })
