@@ -16,7 +16,7 @@
 }
 
 .u-section-1 .u-accordion-1 {
-  width: 894px;
+  width: 800px;
   margin: 79px auto 60px;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .u-section-1 .u-icon-3 {
-  height: 17px;
+  height: 27px;
   width: 17px;
   color: rgb(128, 128, 128);
 }
@@ -130,7 +130,7 @@
   margin-bottom: 0;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 11200px) {
   .u-section-1 .u-accordion-pane-1 {
     height: auto;
   }
