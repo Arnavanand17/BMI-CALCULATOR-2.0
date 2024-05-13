@@ -61,20 +61,16 @@
 
   <script>
     function calculateBMI() {
-      // Get the user's input for height (in meters) and weight (in kilograms)
       var height = parseFloat(document.getElementById("height").value);
       var weight = parseFloat(document.getElementById("weight").value);
 
-      // Check if the input is valid
       if (isNaN(height) || isNaN(weight) || height <= 0 || weight <= 0) {
         alert("Please enter valid height and weight values.");
         return;
       }
 
-      // Calculate BMI
       var bmi = weight / (height * height);
 
-      // Display the result
       document.getElementById("result").innerHTML = "Your BMI is: " + bmi.toFixed(2);
 
       function loadGoogleTranslate() {
