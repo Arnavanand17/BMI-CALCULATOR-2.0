@@ -1,4 +1,3 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
 import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
 
@@ -12,10 +11,8 @@ const firebaseConfig = {
   measurementId: "G-EGSHB2B671"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-// Get a reference to the database service
 const db = getDatabase(app);
 
 document.getElementById("yo").addEventListener('click', function(e) {
