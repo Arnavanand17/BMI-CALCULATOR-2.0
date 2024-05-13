@@ -32,10 +32,8 @@
         return;
       }
 
-      // Calculate BMI
       var bmi = weight / (height * height);
 
-      // Display the result
       document.getElementById("result").innerHTML = "Your BMI is: " + bmi.toFixed(2);
     }
   </script>
