@@ -1,8 +1,8 @@
 p {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Readable font */
-        line-height: 1.6; /* Adjust line height for readability */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        line-height: 1.6; 
         margin: 0;
-        padding: 20px; /* Add some padding to body content */
+        padding: 20px;
         font-size: large;
     }
 .main-heading {
@@ -45,10 +45,10 @@ p {
 }
 .img{
     
-        width: 50%; /* Make the image width 100% of the viewport width */
-        height: 40%; /* Ensure the image aspect ratio is maintained */
-        display: block; /* Remove any default inline display */
-        margin: 0 auto; /* Center the image horizontally */
+        width: 50%; 
+        height: 40%; 
+        display: block; 
+        margin: 0 auto; 
         /* padding-left: 55px; */
     }
 body{
