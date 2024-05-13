@@ -7,23 +7,16 @@ html{
   background-image: url('backgroundimg.jpeg');
   width: 100%;
   height: 600px;
-  /* Adjust height as needed */
   background-size: cover;
-  /* Adjust how the background image is sized */
   background-position: center;
-  /* Position the background image */
-  /* Additional styles */
 }
 
 
 .container {
   height: 100vh;
-  /* Set a height for the container */
   background-image: url('https://via.placeholder.com/1920x1080');
-  /* Replace with your image */
   background-size: cover;
   background-attachment: fixed;
-  /* Keep the background fixed */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,9 +28,7 @@ html{
 
 h1 {
   margin-top: 20%;
-  /* Adjust the distance from the top */
   animation: slide 1s ease-in-out infinite alternate;
-  /* Animation definition */
 }
 
 .content {
@@ -58,24 +49,20 @@ h1 {
 @keyframes slide {
   from {
     transform: translateY(0);
-    /* Initial position */
   }
 
   to {
     transform: translateY(0);
-    /* Amount to move */
   }
 }
 
 @keyframes slideContent {
   from {
     transform: translateX(0);
-    /* Initial position */
   }
 
   to {
     transform: translateX(2px);
-    /* Move content in from left */
   }
 }
 
@@ -113,7 +100,6 @@ header {
   font-size: 14px;
   font-weight: bold;
   margin-left: 20px;
-  /* Size property doesn't exist in CSS; it might be a typo */
   /* size: 20px; */
 }
 
@@ -126,7 +112,6 @@ nav ul {
   display: flex;
   justify-content: center;
   padding: 0;
-  /* Reset padding to ensure no default padding */
 }
 
 nav ul li {
@@ -135,7 +120,6 @@ nav ul li {
 
 nav ul li:last-child {
   margin-right: 0;
-  /* Remove right margin for the last item */
 }
 
 nav ul li a {
@@ -145,7 +129,6 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #9e3ffd;
-  /* You don't need to redefine text-decoration: none; in :hover state */
 }
 
 
@@ -171,9 +154,7 @@ nav ul li a:hover {
 .slider-frame {
   overflow: hidden;
   height: 100vh;
-  /* 100% viewport height */
   width: 100vw;
-  /* 100% viewport width */
   margin: 0;
   padding: 0;
 }
