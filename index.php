@@ -34,7 +34,6 @@
         return;
       }
 
-      // Calculate BMI
       var bmi = weight / (height * height);
 
       // Display the result
