@@ -24,7 +24,6 @@
     }
 
     function calculateBMI() {
-      // Get the user's input for height (in meters) and weight (in kilograms)
       var height = parseFloat(document.getElementById("height").value);
       var weight = parseFloat(document.getElementById("weight").value);
 
