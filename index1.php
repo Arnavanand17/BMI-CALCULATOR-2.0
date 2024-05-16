@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>The BMI Calculator</title>
+  <title>BMI Calculator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
@@ -54,7 +54,7 @@
     }
 
   </script>
-
+//
 
 
   <div id="myid">Choose Language</div>
