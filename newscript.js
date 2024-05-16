@@ -8,7 +8,7 @@ function toggleHeightInputs() {
       document.getElementById('heightCm').style.display = "none";
     }
   }
-  
+  //
   function toggleWeightInputs() {
     var weightUnit = document.getElementById('weightUnit').value;
     if (weightUnit === "pounds") {
