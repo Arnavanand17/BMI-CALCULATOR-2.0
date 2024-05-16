@@ -16,7 +16,7 @@ const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 
 document.getElementById("yo").addEventListener('click', function(e) {
-  e.preventDefault(); // Corrected typo
+  e.preventDefault();
 
   set(ref(db, 'users/' + document.getElementById("email").value),
     {
