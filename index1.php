@@ -21,7 +21,7 @@
   <script>
     function loadGoogleTranslate() {
       new google.translate.TranslateElement("myid")
-    }
+    }//
 
     function calculateBMI() {
       var height = parseFloat(document.getElementById("height").value);
