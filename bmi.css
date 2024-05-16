@@ -7,7 +7,7 @@ p {
     }
 .main-heading {
     text-align: center;
-    font-size: 46px; 
+    font-size: 45px; 
     color:black; 
 }
 @media (max-width: 768px) {
